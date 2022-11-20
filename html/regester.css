@@ -1,0 +1,46 @@
+body{
+    margin: 0px auto;
+    width: 1000px;
+
+}
+#banner_top{
+    
+    height:75px ;
+    
+    
+}
+#banner_top img{
+    padding-top: 13px;
+}
+
+
+#main #left {
+    float: left;
+}
+#main #left ul li {
+    list-style: none;
+}
+#main #left ul li img {
+    padding-top:10px;
+    padding-left:20px ;
+}
+
+#main #left img {
+    padding-top: 435px;
+}
+
+#main #right{
+    background-color: yellow;
+    background-color: yellow;
+    width: 600px;
+    height: 900px ;
+    float: left;
+}
+#main #right table {
+        height: 300px;
+    width: 700px; 
+   
+}
+#main #right img{
+    padding-top:390px;
+}

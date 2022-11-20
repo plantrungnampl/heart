@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>form</title>
+</head>
+<body>
+<div style="width:800px; margin:auto; background-color:orange">
+<form action="" method="" enctype="multipart/form-data" >
+	<table border="0" cellpadding="0" cellspacing="0" width="800px">
+    	<tr>
+        	<td colspan="2" align="center">Đăng ký thông tin</td>
+        </tr>
+        <tr>
+        	<td>Họ và tên</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+        	<td>Địa chỉ</td>
+            <td><input type="text" name="address"></td>
+        </tr>
+        <tr>
+        	<td>Điện thoại</td>
+            <td><input type="tel" name="phone"></td>
+        </tr>
+        <tr>
+        	<td>Giới tính</td>
+            <td>
+            	<input type="radio" name="sex" value="male">Nam
+                <input type="radio" name="sex" value="female">Nữ
+            </td>
+        </tr>
+        <tr>
+        	<td>Tên tài khoản</td>
+            <td><input type="text" name="username"></td>
+        </tr>
+        <tr>
+        	<td>Mật khẩu</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+        	<td>Nhập lại mật khẩu</td>
+            <td><input type="password" name="repassword"></td>
+        </tr>
+        <tr>
+        	<td>Ghi chú thêm</td>
+            <td><textarea name="note"></textarea></td>
+        </tr>
+        <tr>
+        	<td>Email</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+        	<td>Ảnh Avatar</td>
+            <td><input type="file" name="image"></td>
+        </tr>
+        <tr>
+        	<td>Sở thích</td>
+            <td>
+            	<input type="checkbox" name="hobbies" value="sport">Thể thao<br>
+                <input type="checkbox" name="hobbies" value="music">Âm nhạc<br>
+                <input type="checkbox" name="hobbies" value="game">Game
+            </td>
+        </tr>
+        <tr>
+        	<td>demo select:</td>
+            <td>
+            	<select name="chon">
+                	<optgroup label="Du lịch cả nước">
+                        <option value="hn">Hà nội</option>
+                        <option value="dn">Đà Nẵng</option>
+                        <option value="hcm" selected>HCM</option>
+                    </optgroup> 
+                    <optgroup label="Du lịch miền Bắc">
+                        <option value="hn">Hạ Long</option>
+                        <option value="dn">Cao Bằng</option>
+                        <option value="hcm" selected>Ninh Bình</option>
+                    </optgroup>      
+                </select>
+            </td>
+        </tr>
+        <tr>
+        	<td colspan="2" align="center">
+            	<input type="submit" value="Đồng ý">
+                <input type="reset" value="Nhập lại">
+            </td>
+        </tr>
+    </table>
+</form>    
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body{
+    width: 1000px;
+    margin: 0px auto;
+    background-color: black;
+    
+}
+
+#menu{
+    height:65px ;
+    background-color: white;
+    
+}
+menu ul{
+    padding: 0px;
+    margin: 0px;
+}
+#menu ul li{
+    list-style: none;
+    float: left;
+}
+
+#menu ul li img {
+    text-decoration: none;
+    display: block;
+    width:auto ;
+    height:65px;
+    
+
+     
+
+}
+
+#main #right{
+    float: auto;
+    background-color: white;
+    width: 800px;
+    height: 650px;
+    float: left;
+
+   
+
+}
+#main #right ul li{
+    list-style: square;
+}
+
+
+#main #left{
+    height: 650px;
+    width: 200px;
+    background-color: blue;
+    float: left;
+    
+    
+}
+
+#main #left .nav_item{
+    padding-top:500px ;
+    padding-left:6px ;
+}
+
+#footer{
+    background-color: peru;
+    width: 1000px;
+    height: auto;
+    float: left;
+}
+#footer p {
+    color: wheat;
+    text-align: center;
+}
+.register{
+    margin: 100px auto;
+    height: 300px;
+}
+.line{
+    width: 300px;
+}

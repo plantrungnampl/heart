@@ -1,0 +1,144 @@
+:root {
+    --text-color: red;
+   
+}  
+html {
+    font-size: 40px;
+}
+.heading-1 .body-1 {
+   color: var(--text-color);
+   font-size: 1rem;
+    
+
+} 
+     
+
+a {
+    font-weight: 600;
+    font-size: 1rem;
+}
+.heading-1 .heading-2 {
+    color: var(--text-color);
+    font-size: 1rem;
+}
+.heading-1 .body-3 {
+    font-size: 1rem;
+    color: var(--text-color);
+}
+.heading-1 .body-2 {
+    font-size: 1rem;
+}
+
+.test-1 a {
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.heading-1 .body-4 {
+    font-size: 1rem;
+
+
+}
+.heading-1 .body-5 {
+   font-size: 1rem;
+
+}
+.heading-1 .body-6 {
+    color: var(--text-color);
+    font-size: 1rem;
+}
+.body-5 a {
+    color: brown;
+}
+.heading-1 .body-7 {
+    font-size: 1rem;
+}
+.heading-1 {
+    height: 100%;
+    width: 100%;
+    background-color: grey
+    padding: 20px;
+}
+a::after {
+    content: ("attr("href")");
+}
+.body-1::first-letter {
+    font-size: 100px;
+    color: red;
+    
+}
+.body-3::first-letter {
+    font-size: 100px;
+    color: red;
+}
+.heading-1::before {
+    width: 500px;
+    height: 150px;
+    content: "đây chỉ là web thử nghiệm ^^";
+    display: block;
+    background-color: yellow;
+}
+.body-1:hover {
+    color: black;
+} 
+.body-1 {
+    width: 50%;
+    height: 10%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.body-3 {
+    width: 50%;
+    height: 10%;
+}
+a:hover {
+     color: black;
+}
+.heading-2 {
+    padding:10px 16px;
+    font-weight: 900;
+    background-color: white;
+    margin-top: 20px ;
+    border: 5px solid #333
+}
+.heading-2:hover {
+    color: #333;
+    background-color: red;
+}
+.body-8 {
+    color: var(--text-color);
+    width: 50%;
+    height: 10%;
+    padding: 10px;
+    
+}
+.body-8:hover {
+    color: black;
+}
+.body-6::first-letter {
+    font-size: 100px;
+}
+.body-10 {
+    color: var(--text-color);
+    font-size: 150%;
+}
+.heading-3 .content {
+    color: var(--text-color);
+    font-size: 1rem;
+}
+.content {      
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.content::first-letter {
+     color: var(--text-color);
+    font-size: 100px;
+}
+.comment {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 12px;
+    
+}

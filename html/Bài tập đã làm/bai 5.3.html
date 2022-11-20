@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 5.3</title>
+</head>
+<body bgcolor="gray">
+    <style>
+      table{
+        width: 600px;
+        height: 350px;
+        background-color: #E0F9D9;
+        margin: auto;
+        margin-top: 200px;
+      }
+    </style>
+    <form action="formdangki" method="post">
+  <table style="border-collapse:collapse ;"  border="1"  >
+<tr>   
+    <th colspan="2">Phieu Dang Ki Tham Gia Chuong Trinh Khuyen Mai</th>
+</tr>
+<td> Ho va ten </td>
+<td><input type="text" size="40"></td>
+<tr>
+
+    <tr>
+        <td>Dia Chi</td>
+        <td><input type="text" size="40"></td>
+    </tr>
+
+    <tr>
+        <td> dien thoai</td>
+        <td><input type="number" name="Number"></td>
+    </tr>
+    
+    <tr>
+        <td>phai</td>
+        <td><input type="radio" name="nam" id="">Nam
+            <input type="radio" name="nu">Nu
+        </td>
+    </tr>
+
+    <tr>
+        <td>nghe nghiep</td>
+        <td><select name="job" id="">
+                <option value="bacsi">bac si</option>
+                <option value="kisu">ki su </option>
+                <option value="giaovien" selected>giao vien</option>
+        </select></td>
+    </tr>
+   
+    <tr>
+        <td>chon san pham</td>
+        <td> <select multiple size="4"  name="sanpham" id="">
+                    <option value="kemdanhrang">Kem danh rang</option>
+                    <option value="botgiat">bot giat</option>
+                    <option value="daugoidau">dau goi dau</option>
+                    <option value="suatam">sua tam</option>
+             </select> </td>
+
+
+    </tr>
+
+        <tr>
+            <td>so nguoi du doan</td>
+            <td> <textarea name="dudoan" id="" cols="10" rows="2"></textarea> </td>
+        </tr>
+
+
+        <tr>
+            <td  colspan="2" align="center" ><input type="submit" value="Dong y"></td>
+        </tr>
+
+  </table>  
+    </form>
+
+</body>
+</html>

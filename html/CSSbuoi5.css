@@ -1,0 +1,58 @@
+body{
+    margin: 0px auto;
+    width: 1000px;
+
+}
+#banner_top{
+    background-color: white;
+    height:80px ;
+    
+}
+#banner_top img{
+    padding-top: 18px;
+}
+#main #left ul li {
+    list-style: none;
+    display: block;
+    
+}
+#main #left ul li img {
+    padding-top: 10px;
+    padding-left: 20px;
+    
+    
+}
+#main #left {
+    float: left;
+}
+
+#main #left img {
+    padding-top: 430px;
+}
+
+ #main #right{
+    background-color: yellow;
+    width: 250px;
+    height: auto ;
+    float: left;
+}   
+#main #right h4 strong {
+    font-size: 30px;
+}
+#main #right img {
+    padding-top:406px;
+}
+
+#main #bottom {
+    float: left;
+    background-color: yellow;
+    width: 300px;
+    height: 900px;
+}
+
+#main #bottom ul {
+    list-style: none;
+    float: left;
+}
+
+/*story*/
